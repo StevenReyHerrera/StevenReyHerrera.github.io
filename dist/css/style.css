@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+}
+.container-form__h1 {
+  color: white;
+}
+.container-form__img {
+  width: 30%;
+  height: 50%;
+}
+.container-form__form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.container-form__form__label {
+  text-align: center;
+  margin-bottom: 2%;
+  color: white;
+}
+.container-form__form__input-text {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 5%;
+  color: red;
+}
+.container-form__form__input-submit {
+  width: 20%;
+  margin-left: 40%;
+  border: 2px solid red;
+}
+.container-form__form__input-submit:hover {
+  background-color: red;
+  color: white;
+}
+
+.container-game {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 500px;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.container-keyboard {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.container-keyboard__button-letter {
+  display: inline-block;
+  margin: 1%;
+  font-size: 1.3rem;
+}
+.container-keyboard__reinicio {
+  background-color: white;
+  color: red;
+}
+
+.container-word {
+  align-items: center;
+  color: white;
+}
+.container-word h1 {
+  text-align: center;
+}
+
+.container-trys {
+  color: red;
+  text-align: center;
+}
+.container-trys__img {
+  width: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */

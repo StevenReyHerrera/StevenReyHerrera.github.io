@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./dist/css/style.css"
+    />
+  </head>
+  <body>
+    <div class="container-game">
+      <div id="container-word" class="container-word"><h1> Peliculas de terror</h1></div>
+      <div id="container-trys" class="container-trys">
+        <img class="container-trys__img" src="./dist/img/Person.png" >
+      </div>
+      <div id="keyboard" class="container-keyboard"></div>
+      <div class="container-keyboard__restart"></div>
+    </div>
+
+    <div id="container-form" class="container-form">
+      <h1 class="container-form__h1">Juego el ahorcado</h1>
+      <img class="container-form__img" src="./dist/img/Logo.png" />
+      <form id="form" class="container-form__form" type="submit">
+        <label class="container-form__form__label" for="">Jugador</label>
+        <input
+          type="text"
+          class="container-form__form__input-text"
+          minlength="3"
+          required
+        />
+        <input
+          class="container-form__form__input-submit"
+          value="Jugar"
+          type="submit"
+        />
+      </form>
+    </div>
+    <script type="module" src="./dist/classes/Game.js"></script>
+  </body>
+</html>
